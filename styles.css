@@ -1,0 +1,132 @@
+@import url("css/card.css");
+@import url("css/barranav.css");
+@import url("css/contacto.css");
+@import url("css/footer.css");
+@import url("css/tabla.css");
+@import url("css/columnasgrid.css");
+
+*{
+  margin:0;
+  padding: 0;
+}
+html{
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position:relative;
+  margin:0;
+  min-height: 100%;
+  padding-bottom: 4rem;
+}
+
+h1 {
+  color: #43BC76;
+  font-weight: bold;
+}
+h2 {
+  color: #43BC76;
+  font-weight: bold;
+}
+h3 {
+  color: #43BC76;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.inicioTitle{
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+article p {
+  display: flex;
+  align-items: center;
+}
+article .pie-foto {
+  align-items: right;
+}
+
+.avisolegal {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;  
+}
+.avisolegal p{
+  margin-bottom: 2%;
+}
+.avisolegal-title{
+  margin-bottom: 4%;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: left;
+  margin: 50px 0;
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+.section-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: right;
+  margin: 50px 0;
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.text {
+  flex-basis: auto;
+  flex-grow: 1;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.text ol{
+  margin-bottom: 10px;
+}
+.text ol li{
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+.image {
+  flex-basis: 50%;
+}
+.image img {
+  max-width: 100%;
+  padding-right: 10px;
+}
+.image p{
+  color: white;
+  background-color: #68CA91;
+  text-align: center;
+  padding: 10px;
+}
+
+.ficha-tecnica-h1{
+  margin-left: 8%;
+  color: #43BC76;
+  font-weight: bolder;
+}
+.ficha-tecnica-h2{
+  margin-left: 8%;
+  color: #68CA91;
+  font-weight: bold;
+}
