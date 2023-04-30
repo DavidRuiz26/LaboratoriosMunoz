@@ -59,7 +59,7 @@
   margin-bottom: 5%;
   text-align: justify;
 }
-@media (max-width: 391px) {
+@media (max-width: 450px) {
   .volcandef {
     background-image: none;
     width: 100%;

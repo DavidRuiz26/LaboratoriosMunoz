@@ -32,7 +32,7 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 391px) {
+@media (max-width: 450px) {
   .contacto {
     margin-left: 5%;
   }

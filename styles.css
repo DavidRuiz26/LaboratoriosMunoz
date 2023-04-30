@@ -160,7 +160,7 @@ article .pie-foto {
 }
 
 /* Estilos para pantallas con un ancho máximo de 391px */
-@media (max-width: 391px) {
+@media (max-width: 450px) {
   .section {
     flex-direction: column;
     margin: 30px 0;

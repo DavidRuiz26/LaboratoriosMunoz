@@ -65,7 +65,7 @@ footer div {
   margin: 0 10px;
 }
 
-@media (max-width:391px) {
+@media (max-width:450px) {
   footer {
     display: flex;
     flex-wrap: wrap;

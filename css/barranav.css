@@ -61,7 +61,7 @@ label #sign-two {
   display: none;
 }
 
-@media (max-width:391px) {
+@media (max-width:450px) {
   label #sign-one {
     display: block;
   }

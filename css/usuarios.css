@@ -87,7 +87,7 @@
     height: 40px;
     line-height: 1.2;
   }
-  @media (max-width: 391px) {
+  @media (max-width: 450px) {
     .user-section {
     padding: 1rem;
     }

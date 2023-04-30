@@ -38,7 +38,7 @@
     padding-bottom: 2%;
   }
 
-  @media (max-width:391px) {
+  @media (max-width:450px) {
     .page {
         display: grid;
         grid-template-columns: auto ;
