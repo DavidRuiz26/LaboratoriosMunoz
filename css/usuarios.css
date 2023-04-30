@@ -87,4 +87,51 @@
     height: 40px;
     line-height: 1.2;
   }
-  
+  @media (max-width: 391px) {
+    .user-section {
+    padding: 1rem;
+    }
+    
+    .user-card {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    }
+    
+    .user-image {
+    height: 50%;
+    }
+    
+    .user-image img {
+    width: 50%;
+    height: auto;
+    }
+    
+    .user-details {
+    height: 50%;
+    }
+    
+    .user-name {
+    font-size: 1rem;
+    }
+    
+    .rating-number {
+    font-size: 1rem;
+    }
+    
+    .star-rating {
+    font-size: 1rem;
+    }
+    
+    .user-comment {
+    font-size: 1rem;
+    height: auto;
+    line-height: 1.1;
+    text-align: center;
+    }
+    
+    .user-section {
+    gap: 1rem;
+    }
+    }

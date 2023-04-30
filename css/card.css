@@ -44,7 +44,7 @@
         grid-template-columns: auto ;
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 20%;
+        margin-bottom: 60%;
       }
     .card {
         /* Add shadows to create the "card" effect */
@@ -53,7 +53,7 @@
         width: 80%;
         height: 95%;
         margin-top: 10%;
-        margin-bottom: 40%;
+        margin-bottom: 20%;
       }
     
       /* On mouse-over, add a deeper shadow */
@@ -62,7 +62,7 @@
       }
       .card__img {
         width: 100%;
-        height: 50%;
+        height: 63%;
         object-fit: fill;
       }
       /* Add some padding inside the card container */
