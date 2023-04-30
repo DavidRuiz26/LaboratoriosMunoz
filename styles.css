@@ -130,3 +130,36 @@ article .pie-foto {
   color: #68CA91;
   font-weight: bold;
 }
+
+.contenedor {
+  display: flex;
+  padding-bottom: 10px;
+  margin: 5%;
+}
+
+.columna {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.columna h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.columna p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.columna img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
